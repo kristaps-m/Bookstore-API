@@ -45,7 +45,6 @@ namespace Bookstore.Controllers
         }
 
         // https://localhost:7025/book/?start=0&take=3
-        //[Route("")]
         [HttpGet]
         public IActionResult GetAllBooks(int start, int take)
         {            

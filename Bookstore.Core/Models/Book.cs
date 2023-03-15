@@ -6,7 +6,6 @@
         public string Title { get; set; }
         public string Author { get; set; }
         public DateTime PublicationDate { get; set; }
-        //public int BookSize { get; set; }
 
         public Book(int id, string title, string author, DateTime publicationDate)
         {
@@ -14,7 +13,6 @@
             Title = title;
             Author = author;
             PublicationDate = publicationDate;
-            //BookSize = bookSize;
         }
     }
 }
